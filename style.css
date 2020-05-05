@@ -1,0 +1,12 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: inline;
+}
+
+/* hide video display */
+/*#canvas { display: none; }*/
+
+.videobox { display:none; }

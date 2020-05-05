@@ -1,0 +1,31 @@
+<!DOCTYPE html><html lang=""><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swat the Bee</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+   <script src="addons/p5.js"></script>
+    <script src="addons/p5.sound.min.js"></script>
+    <script src="addons/handtrack.min.js"> </script>
+    <script src="addons/p5.play.js"> </script>
+    <script src="addons/p5.collide2d.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <div class="mb10">
+        <button onclick="toggleVideo()" id="trackbutton" type="button">Toggle Video</button>
+        <div id="updatenote"> loading model...</div>
+    </div>
+    <video class="videobox canvasbox" autoplay="autoplay" id="myvideo"></video>
+
+    <canvas id="canvas" class="border canvasbox"></canvas>
+    <script src="sketch.js"></script>
+
+
+</body></html>
